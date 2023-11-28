@@ -7,4 +7,89 @@ body {
 
 h1 {
   color: #333;
+  width: 100%;
+  text-align: center;
+}
+
+#countries-list{
+  width: 96%;
+  margin: 2%;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5vw;
+  padding: 1%;
+}
+.pais{
+  width: 12%;
+  height: 23vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.pais img{
+ width: 94%;
+ height: 6vw;
+ object-fit: cover;
+ padding: 3%;
+ border-radius: 8px;
+
+}
+.pais p{
+  font-size: 1vw;
+  width: 94%;
+  padding-left: 4%;
+  text-align: center}
+ #Pop_up {
+    left: 35%;
+    top: 40%;
+    z-index: 9999;
+    background: #fff;
+    border-radius: 5px;
+    position: fixed;
+    width: 40%;
+    box-shadow: 1px 2px 7px;
+}
+#cerrar{
+  font-size: 2vw;
+  top: 1%;
+  position: absolute;
+  right: 3%;
+  cursor: pointer;
+}
+#cerrar:hover{
+  color: red;
+  transform: scale(1.2);
+}
+#popup img{
+  width: 55%;
+  height: 14vw;
+  object-fit: cover;
+  margin: 9% 3%;
+
+}
+#container{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 39%;
+  align-items: flex-start;
+  margin-top: 10%;
+}
+#container p{
+  margin: 3.5% 0;
+}
+#container h4{
+  font-size: 1.6vw;
+  margin: 6% 0;
+
 }
